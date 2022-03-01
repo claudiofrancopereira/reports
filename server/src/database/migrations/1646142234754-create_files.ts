@@ -13,7 +13,7 @@ export class createFiles1646142234754 implements MigrationInterface {
         },
         {
           name: 'reportID',
-          type: 'varchar'
+          type: 'uuid'
         },
         {
           name: 'path',
