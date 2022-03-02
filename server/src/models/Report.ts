@@ -21,6 +21,9 @@ class Report {
     endHour: string;
 
     @Column()
+    staff: string;
+    
+    @Column()
     address: string;
 
     @Column()

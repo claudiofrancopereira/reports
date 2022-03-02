@@ -12,7 +12,10 @@
   },
   "scripts": {
     "dev": "ts-node-dev src/server.ts --transpile-only --ignore-watch node_modules",
-    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
+    "build": "tsc",
+    "start": "node dist/server.js"
+
   },
   "dependencies": {
     "dotenv": "^16.0.0",

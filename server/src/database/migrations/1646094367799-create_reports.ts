@@ -28,6 +28,10 @@ export class createReports1646094367799 implements MigrationInterface {
           type: 'varchar'
         },
         {
+          name: 'staff',
+          type: 'varchar'
+        },
+        {
           name: 'address',
           type: 'varchar'
         },

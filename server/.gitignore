@@ -1,4 +1,7 @@
 node_modules/
 reportsFiles/
 reportsImages/
+dist/
+
+yarn.lock
 .env
